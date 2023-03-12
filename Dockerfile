@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:21
 
 COPY files/dc-server /opt/dc-server
 
@@ -15,5 +15,7 @@ ENV PORT=$arg_port
 ENV IMAGESERVERPORT=$arg_imageserverport
 ENV WEBSERVERPORT=$arg_webserverport
 ENV CREDENTIALS=$arg_credentials
+
+WORKDIR /opt/dc-server
 
 CMD java -Xmx$XMX -jar /opt/dc-server/datacrow-server.jar -ip:$IP -userdir:/opt/dc-user -port:$PORT -imageserverport:$IMAGESERVERPORT -webserverport:$WEBSERVERPORT  -credentials:$CREDENTIALS
