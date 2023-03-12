@@ -213,16 +213,6 @@
 	width:32px;
 	height:32px;
 }
-.moduleicon56_16 {
-	background: url("#{resource['default:images/56_16.png']}")  no-repeat !important;
-	width:16px;
-	height:16px;
-}
-.moduleicon56_32 {
-	background: url("#{resource['default:images/56_32.png']}")  no-repeat !important;
-	width:32px;
-	height:32px;
-}
 .moduleicon64_16 {
 	background: url("#{resource['default:images/64_16.png']}")  no-repeat !important;
 	width:16px;
@@ -250,26 +240,6 @@
 }
 .moduleicon31000_32 {
 	background: url("#{resource['default:images/31000_32.png']}")  no-repeat !important;
-	width:32px;
-	height:32px;
-}
-.moduleicon55_16 {
-	background: url("#{resource['default:images/55_16.png']}")  no-repeat !important;
-	width:16px;
-	height:16px;
-}
-.moduleicon55_32 {
-	background: url("#{resource['default:images/55_32.png']}")  no-repeat !important;
-	width:32px;
-	height:32px;
-}
-.moduleicon57_16 {
-	background: url("#{resource['default:images/57_16.png']}")  no-repeat !important;
-	width:16px;
-	height:16px;
-}
-.moduleicon57_32 {
-	background: url("#{resource['default:images/57_32.png']}")  no-repeat !important;
 	width:32px;
 	height:32px;
 }
@@ -330,6 +300,16 @@
 }
 .moduleicon50_32 {
 	background: url("#{resource['default:images/50_32.png']}")  no-repeat !important;
+	width:32px;
+	height:32px;
+}
+.moduleicon1_16 {
+	background: url("#{resource['default:images/1_16.png']}")  no-repeat !important;
+	width:16px;
+	height:16px;
+}
+.moduleicon1_32 {
+	background: url("#{resource['default:images/1_32.png']}")  no-repeat !important;
 	width:32px;
 	height:32px;
 }
